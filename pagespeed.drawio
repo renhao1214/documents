@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T03:34:52.871Z" agent="5.0 (Macintosh)" etag="cC0IZBX-TRQVfkIXfaPc" version="13.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-04T03:44:38.174Z" agent="5.0 (Macintosh)" etag="LujIQqDxp60IkVmwrv69" version="13.5.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1162" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
           <mxGeometry x="140" y="160" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="354" y="185" width="120" height="40" as="geometry" />
+          <mxGeometry x="374" y="185" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="否" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
           <mxGeometry x="-0.0005" y="-135" relative="1" as="geometry">
@@ -37,7 +37,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="该请求是否请求Pagespeed可以加速的文件类型" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="133.13" y="300" width="143.75" height="80" as="geometry" />
+          <mxGeometry x="133.14" y="280" width="143.75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wg3bRtlnJ6XGCOW59Y1r-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-11" target="WIyWlLk6GJQsqaUBKTNV-10">
           <mxGeometry relative="1" as="geometry" />
@@ -46,13 +46,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="根据该domain用户配置的pagespeed优化等级，向backend发送对应的HTTP请求" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="136.26" y="420" width="137.5" height="70" as="geometry" />
+          <mxGeometry x="136.26" y="400" width="137.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="354" y="320" width="120" height="40" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="直接向Backend发送对应的HTTP请求，不带pagespeed优化等级信息，" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="354" y="295" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wg3bRtlnJ6XGCOW59Y1r-1" value="backend根据CACHE引擎发送的pagespeed优化等级信息，对文件内容进行对应的pagespeed加速操作，将加速后的内容返回到CACHE引擎" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="124.08" y="520" width="161.87" height="80" as="geometry" />
+          <mxGeometry x="124.07" y="505" width="161.87" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wg3bRtlnJ6XGCOW59Y1r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="wg3bRtlnJ6XGCOW59Y1r-9" source="wg3bRtlnJ6XGCOW59Y1r-1">
           <mxGeometry relative="1" as="geometry">
@@ -60,7 +60,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wg3bRtlnJ6XGCOW59Y1r-9" value="CACHE引擎把backend返回的pagespeed加速后的内容进行缓存，并且返回给前端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="131.89" y="630" width="141.87" height="60" as="geometry" />
+          <mxGeometry x="135.01999999999998" y="620" width="141.87" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wg3bRtlnJ6XGCOW59Y1r-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="wg3bRtlnJ6XGCOW59Y1r-11" source="wg3bRtlnJ6XGCOW59Y1r-9">
           <mxGeometry relative="1" as="geometry">
@@ -68,7 +68,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wg3bRtlnJ6XGCOW59Y1r-11" value="backend根据CACHE引擎发送的pagespeed优化等级信息，对文件内容进行对应的pagespeed优化操作" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="125.94999999999999" y="730" width="153.74" height="80" as="geometry" />
+          <mxGeometry x="129.07999999999998" y="720" width="153.74" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
